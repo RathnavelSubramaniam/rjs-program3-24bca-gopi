@@ -10,4 +10,4 @@ const checkOddEven = (num) => {
     return (num % 2 === 0) ? "Even" : "odd"
 };
 let number = 7;
-module.exports = checkOddEven;
+console.log(number + " is " + checkOddEven(number));
