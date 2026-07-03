@@ -5,7 +5,6 @@
 // Example:
 // checkOddEven(8) ? "Even"
 // checkOddEven(5) ? "Odd"
-
 const checkOddEven = (num) => {
     return (num % 2 === 0) ? "Even" : "odd";
 };
